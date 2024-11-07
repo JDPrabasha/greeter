@@ -5,7 +5,7 @@ type Greeting record {|
     string content;
 |};
 
-configurable intu port = 9090;
+configurable int port = 9090;
 configurable Greeting greeting = {
     to: "Ballerina",
     content: "Welcome to Ballerina!"
